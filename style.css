@@ -750,8 +750,8 @@ html {
 }
 #es-allegra.es-allegra .es-kv__title {
   text-transform: uppercase;
-  font-size: 30px;
-  margin-top: 80px;
+  font-size: 24px;
+  margin-top: 60px;
   text-shadow: 4px 3px 8px rgb(66, 68, 90);
   font-family: "Nexa-Black";
   animation: es-pulse-kv 2s infinite;
@@ -765,7 +765,7 @@ html {
   margin-top: -20px;
   font-family: "Nexa-Heavy";
   margin-left: 20px;
-  width: 80%;
+  width: 60%;
   animation: es-pulse-kv 2s infinite;
   opacity: 1;
 }
@@ -774,7 +774,7 @@ html {
   display: flex;
 }
 #es-allegra.es-allegra .es-kv__claims {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 #es-allegra.es-allegra .es-kv__claim {
   font-size: 16px;
@@ -1577,7 +1577,7 @@ html {
   }
   #es-allegra.es-allegra .es-kv__title {
     font-size: 45px;
-    margin-top: 160px;
+    margin-top: 120px;
     margin-left: 20px;
     line-height: 1;
   }
@@ -1827,7 +1827,7 @@ html {
   }
   #es-allegra.es-allegra .es-kv__title {
     font-size: 55px;
-    margin-top: 160px;
+    margin-top: 170px;
     margin-left: 50px;
     line-height: 1;
   }
@@ -1912,7 +1912,7 @@ html {
   }
   #es-allegra.es-allegra .es-kv__title {
     font-size: 75px;
-    margin-top: 275px;
+    margin-top: 190px;
     margin-left: 100px;
     line-height: 1;
   }
@@ -2159,13 +2159,16 @@ html {
   }
 }
 @media (max-width: 400px) {
+  #es-allegra.es-allegra .es-kv__subtitle {
+    width: 80%;
+  }
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-bottom: 90px;
+  }
   #es-allegra.es-allegra .es-kv__packshot {
     max-width: 180px;
     bottom: 105px;
     right: -10px;
-  }
-  #es-allegra.es-allegra .es-kv__claims {
-    margin-bottom: 80px;
   }
   #es-allegra.es-allegra .es-mainCtn {
     margin-top: -90px;
@@ -2183,7 +2186,7 @@ html {
     right: -10px;
   }
   #es-allegra.es-allegra .es-kv__claims {
-    margin-bottom: 60px;
+    margin-bottom: 90px;
   }
   #es-allegra.es-allegra .es-mainCtn {
     margin-top: -90px;
