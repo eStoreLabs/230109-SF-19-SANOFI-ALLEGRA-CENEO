@@ -899,7 +899,7 @@ html {
 }
 #es-allegra.es-allegra .es-symptoms {
   margin: 10px;
-  background-color: #9e4ea9;
+  background-color: #853a92;
   padding: 20px 0;
 }
 #es-allegra.es-allegra .es-symptoms__title {
@@ -1028,7 +1028,7 @@ html {
 }
 #es-allegra.es-allegra .es-season {
   margin: 10px;
-  background-color: #9e4ea9;
+  background-color: #853a92;
   padding: 20px 0;
   padding-bottom: 0;
 }
@@ -1332,7 +1332,7 @@ html {
 #es-allegra.es-allegra .es-calendar {
   margin: 10px;
   background-color: #853a92;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 #es-allegra.es-allegra .es-calendar__title {
   text-transform: uppercase;
@@ -1426,7 +1426,7 @@ html {
 }
 #es-allegra.es-allegra .es-ingr {
   margin: 10px;
-  background-color: #9e4ea9;
+  background-color: #853a92;
   padding: 20px 0;
 }
 #es-allegra.es-allegra .es-ingr__title {
@@ -1453,6 +1453,61 @@ html {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+}
+#es-allegra.es-allegra .es-month {
+  margin: 10px;
+  background-color: #853a92;
+  padding: 20px 0;
+}
+#es-allegra.es-allegra .es-month__titleCtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#es-allegra.es-allegra .es-month__title {
+  font-family: "Nexa-Heavy";
+  font-size: 20px;
+}
+#es-allegra.es-allegra .es-month__title--2 {
+  font-size: 40px;
+  margin: 0;
+  line-height: 0.5;
+}
+#es-allegra.es-allegra .es-month__titleImg {
+  max-width: 150px;
+}
+
+#es-allegra.es-allegra .es-month__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  min-height: 50px;
+  margin: 5px auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #9e4ea9;
+  background-color: #f6cc30;
+  line-height: 1;
+  padding: 5px;
+  box-shadow: 8px 8px 28px -10px rgb(17, 17, 17);
+  transition: 0.3s ease-in-out;
+  font-size: 24px;
+}
+#es-allegra.es-allegra .es-month__link:hover {
+  transition: 0.4s ease-in-out;
+  transform: scale(0.98);
+  box-shadow: inset -3px 0px 24px -12px rgb(17, 17, 17);
+}
+#es-allegra.es-allegra .es-month__img {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+#es-allegra.es-allegra .es-month__titleImg {
+  max-width: 150px;
 }
 #es-allegra.es-allegra .es-footer {
   margin: 10px;
@@ -1485,6 +1540,14 @@ html {
   text-align: center;
   font-size: 16px;
   font-family: "Nexa-Book";
+}
+#es-allegra.es-allegra .es-video {
+  width: 100%;
+  background-color: #9e4ea9;
+  padding: 10px 0;
+}
+#es-allegra.es-allegra .es-video__iframe {
+  min-height: 270px;
 }
 
 @media (min-width: 600px) {
@@ -1555,7 +1618,7 @@ html {
     height: fit-content;
     margin: 0 auto;
     margin-top: -50px;
-    padding: 30px 0;
+    padding: 30px 0 10px 0;
   }
   #es-allegra.es-allegra .es-nav__link {
     font-size: 12px;
@@ -1693,6 +1756,19 @@ html {
   #es-allegra.es-allegra .es-ingr__subtitle {
     font-size: 25px;
   }
+  #es-allegra.es-allegra .es-month {
+    margin: 40px;
+  }
+  #es-allegra.es-allegra .es-month__title {
+    font-size: 40px;
+  }
+  #es-allegra.es-allegra .es-month__title--2 {
+    font-size: 62px;
+    line-height: 0.2;
+  }
+  #es-allegra.es-allegra .es-month__titleImg {
+    max-width: 200px;
+  }
   #es-allegra.es-allegra .es-footer {
     margin: 40px;
     padding: 20px;
@@ -1718,6 +1794,10 @@ html {
   #es-allegra.es-allegra .es-footer__warning {
     text-align: center;
     font-size: 18px;
+  }
+  #es-allegra.es-allegra .es-video__iframe {
+    min-height: 330px;
+    padding: 30px 0;
   }
 }
 @media (min-width: 840px) {
@@ -1788,13 +1868,16 @@ html {
     height: fit-content;
     margin: 0 auto;
     margin-top: -50px;
-    padding: 30px 0;
+    padding: 30px 0 10px 0;
   }
   #es-allegra.es-allegra .es-nav__link {
     font-size: 12px;
     min-width: 110px;
     max-width: 110px;
     min-height: 40px;
+  }
+  #es-allegra.es-allegra .es-video__iframe {
+    min-height: 430px;
   }
 }
 
@@ -2041,6 +2124,25 @@ html {
     font-size: 25px;
     max-width: 100%;
   }
+  #es-allegra.es-allegra .es-month {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #es-allegra.es-allegra .es-month__title {
+    font-size: 62px;
+    text-align: center;
+  }
+  #es-allegra.es-allegra .es-month__title--2 {
+    line-height: 0;
+  }
+  #es-allegra.es-allegra .es-month__titleImg {
+    max-width: 300px;
+  }
+  #es-allegra.es-allegra .es-month__img {
+    max-width: 480px;
+  }
   #es-allegra.es-allegra .es-footer__claim {
     font-size: 12px;
     opacity: 0.8;
@@ -2051,6 +2153,9 @@ html {
   #es-allegra.es-allegra .es-footer__number {
     font-size: 14px;
     opacity: 0.8;
+  }
+  #es-allegra.es-allegra .es-video__iframe {
+    min-height: 530px;
   }
 }
 @media (max-width: 400px) {
