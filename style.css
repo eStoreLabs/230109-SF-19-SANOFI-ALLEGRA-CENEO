@@ -1329,6 +1329,12 @@ html {
   text-align: center;
   max-width: 600px;
 }
+#es-allegra.es-allegra .es-season sup {
+  font-size: 50%;
+}
+#es-allegra.es-allegra .es-calendar sup {
+  font-size: 50%;
+}
 #es-allegra.es-allegra .es-calendar {
   margin: 10px;
   background-color: #853a92;
@@ -1468,6 +1474,8 @@ html {
 #es-allegra.es-allegra .es-month__title {
   font-family: "Nexa-Heavy";
   font-size: 20px;
+  margin: 16px 0;
+  line-height: 1;
 }
 #es-allegra.es-allegra .es-month__title--2 {
   font-size: 40px;
@@ -1764,7 +1772,6 @@ html {
   }
   #es-allegra.es-allegra .es-month__title--2 {
     font-size: 62px;
-    line-height: 0.2;
   }
   #es-allegra.es-allegra .es-month__titleImg {
     max-width: 200px;
@@ -2135,7 +2142,7 @@ html {
     text-align: center;
   }
   #es-allegra.es-allegra .es-month__title--2 {
-    line-height: 0;
+    font-size: 96px;
   }
   #es-allegra.es-allegra .es-month__titleImg {
     max-width: 300px;
