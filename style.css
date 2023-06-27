@@ -749,6 +749,7 @@ html {
   justify-content: space-between;
 }
 #es-allegra.es-allegra .es-kv__title {
+  padding: 0;
   text-transform: uppercase;
   font-size: 24px;
   margin-top: 60px;
@@ -834,6 +835,7 @@ html {
 #es-allegra.es-allegra .es-about {
   margin: 10px;
   background-color: #853a92;
+  padding: 20px 0;
 }
 #es-allegra.es-allegra .es-about__titleCtn {
   display: flex;
@@ -841,6 +843,8 @@ html {
   align-items: center;
 }
 #es-allegra.es-allegra .es-about__title {
+  padding: 0;
+  margin: 20px 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -903,6 +907,8 @@ html {
   padding: 20px 0;
 }
 #es-allegra.es-allegra .es-symptoms__title {
+  padding: 0;
+  margin: 20px 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -981,6 +987,8 @@ html {
   padding: 20px 0;
 }
 #es-allegra.es-allegra .es-doze__title {
+  padding: 0;
+  margin: 20px 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -1030,9 +1038,9 @@ html {
   margin: 10px;
   background-color: #853a92;
   padding: 20px 0;
-  padding-bottom: 0;
 }
 #es-allegra.es-allegra .es-season__title {
+  padding: 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -1341,6 +1349,7 @@ html {
   padding: 20px 0 0 0;
 }
 #es-allegra.es-allegra .es-calendar__title {
+  padding: 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -1436,6 +1445,7 @@ html {
   padding: 20px 0;
 }
 #es-allegra.es-allegra .es-ingr__title {
+  padding: 0;
   text-transform: uppercase;
   font-family: "Nexa-Heavy";
   font-size: 20px;
@@ -1472,9 +1482,10 @@ html {
   gap: 16px;
 }
 #es-allegra.es-allegra .es-month__title {
+  padding: 0;
   font-family: "Nexa-Heavy";
   font-size: 20px;
-  margin: 16px 0;
+  margin: 20px 0;
   line-height: 1;
 }
 #es-allegra.es-allegra .es-month__title--2 {
@@ -1969,8 +1980,7 @@ html {
     min-height: 60px;
   }
   #es-allegra.es-allegra .es-about__title {
-    font-size: 65px;
-    margin: 30px 0;
+    font-size: 62px;
   }
   #es-allegra.es-allegra .es-about__titleImg {
     max-width: 300px;
@@ -1993,12 +2003,8 @@ html {
     font-size: 22px;
     line-height: 1;
   }
-  #es-allegra.es-allegra .es-symptoms {
-    padding: 10px 0;
-  }
   #es-allegra.es-allegra .es-symptoms__title {
     font-size: 62px;
-    margin: 20px 0;
   }
   #es-allegra.es-allegra .es-symptoms__redness {
     top: 42%;
@@ -2033,12 +2039,8 @@ html {
   #es-allegra.es-allegra .es-symptoms__claim {
     font-size: 25px;
   }
-  #es-allegra.es-allegra .es-doze {
-    padding: 10px 0;
-  }
   #es-allegra.es-allegra .es-doze__title {
     font-size: 62px;
-    margin: 10px 0;
   }
   #es-allegra.es-allegra .es-doze__icon {
     width: 140px;
@@ -2053,6 +2055,7 @@ html {
   #es-allegra.es-allegra .es-season__title {
     font-size: 62px;
     line-height: 0.8;
+    margin-top: 30px;
   }
   #es-allegra.es-allegra .es-season__contentCtn {
     min-height: 500px;
