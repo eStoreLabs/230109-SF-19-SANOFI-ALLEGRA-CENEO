@@ -862,7 +862,7 @@ html {
   min-width: 250px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin: 10px;
 }
@@ -1557,7 +1557,7 @@ html {
 }
 #es-allegra.es-allegra .es-footer__warning {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Nexa-Book";
 }
 #es-allegra.es-allegra .es-video {
@@ -1811,7 +1811,7 @@ html {
   }
   #es-allegra.es-allegra .es-footer__warning {
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
   #es-allegra.es-allegra .es-video {
     padding: 30px 0;
@@ -2038,6 +2038,7 @@ html {
   }
   #es-allegra.es-allegra .es-symptoms__claim {
     font-size: 25px;
+    padding: 0 150px;
   }
   #es-allegra.es-allegra .es-doze__title {
     font-size: 62px;
@@ -2152,9 +2153,6 @@ html {
   #es-allegra.es-allegra .es-footer__claim {
     font-size: 12px;
     opacity: 0.8;
-  }
-  #es-allegra.es-allegra .es-footer__warning {
-    font-size: 25px;
   }
   #es-allegra.es-allegra .es-footer__number {
     font-size: 14px;
