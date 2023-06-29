@@ -1893,6 +1893,9 @@ html {
     max-width: 110px;
     min-height: 40px;
   }
+  #es-allegra.es-allegra .es-about__desc--2 {
+    margin-top: 0;
+  }
 }
 
 @media (min-width:1100px) {
@@ -2157,6 +2160,9 @@ html {
   #es-allegra.es-allegra .es-footer__number {
     font-size: 14px;
     opacity: 0.8;
+  }
+  #es-allegra.es-allegra .es-footer__warning {
+    font-size: 25px;
   }
 }
 @media (max-width: 400px) {
