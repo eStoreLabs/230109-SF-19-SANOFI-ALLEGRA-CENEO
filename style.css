@@ -505,7 +505,7 @@ html {
   max-width: 100%;
 }
 #es-allegra.es-allegra .es-kv {
-  min-height: 400px;
+  /* min-height: 390px; */
   padding: 20px;
   position: relative;
 }
@@ -746,7 +746,7 @@ html {
   display: block;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding-bottom: 0;
 }
 #es-allegra.es-allegra .es-kv__title {
   padding: 0;
@@ -775,7 +775,7 @@ html {
   display: flex;
 }
 #es-allegra.es-allegra .es-kv__claims {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #es-allegra.es-allegra .es-kv__claim {
   font-size: 16px;
@@ -793,14 +793,13 @@ html {
   position: absolute;
   max-width: 250px;
   right: -20px;
-  bottom: 50px;
+  bottom: 20px;
 }
 #es-allegra.es-allegra .es-mainCtn {
   background-color: #9e4ea9;
   width: 100%;
   z-index: 10;
   position: relative;
-  margin-top: -40px;
 }
 #es-allegra.es-allegra .es-nav {
   display: flex;
@@ -1637,7 +1636,7 @@ html {
     height: fit-content;
     margin: 0 auto;
     margin-top: -50px;
-    padding: 30px 0 10px 0;
+    padding: 10px 0;
   }
   #es-allegra.es-allegra .es-nav__link {
     font-size: 12px;
@@ -1888,7 +1887,6 @@ html {
     height: fit-content;
     margin: 0 auto;
     margin-top: -50px;
-    padding: 30px 0 10px 0;
   }
   #es-allegra.es-allegra .es-nav__link {
     font-size: 12px;
@@ -1980,7 +1978,6 @@ html {
     height: fit-content;
     margin: 0 auto;
     margin-top: -50px;
-    padding: 30px 0;
   }
   #es-allegra.es-allegra .es-nav__link {
     font-size: 20px;
@@ -2171,60 +2168,41 @@ html {
     font-size: 25px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 220px;
+  }
+}
+@media (max-width: 520px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 160px;
+  }
+}
+@media (max-width: 450px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 430px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 410px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 80px;
+  }
+  #es-allegra.es-allegra .es-kv__packshot {
+    max-width: 180px;
+    bottom: 20px;
+    right: -10px;
+  }
+}
+@media (max-width: 389px) {
+  #es-allegra.es-allegra .es-kv__claims {
+    margin-top: 60px;
+  }
   #es-allegra.es-allegra .es-kv__subtitle {
     width: 80%;
   }
-  #es-allegra.es-allegra .es-kv__claims {
-    margin-bottom: 90px;
-  }
-  #es-allegra.es-allegra .es-kv__packshot {
-    max-width: 180px;
-    bottom: 105px;
-    right: -10px;
-  }
-  #es-allegra.es-allegra .es-mainCtn {
-    margin-top: -90px;
-  }
-  #es-allegra.es-allegra .es-nav__link {
-    max-width: 80px;
-    min-width: 80px;
-    font-size: 9px;
-  }
 }
-@media (max-width: 359px) {
-  #es-allegra.es-allegra .es-kv__packshot {
-    max-width: 180px;
-    bottom: 105px;
-    right: -10px;
-  }
-  #es-allegra.es-allegra .es-kv__claims {
-    margin-bottom: 90px;
-  }
-  #es-allegra.es-allegra .es-mainCtn {
-    margin-top: -90px;
-  }
-  #es-allegra.es-allegra .es-nav__link {
-    max-width: 80px;
-    min-width: 80px;
-    font-size: 9px;
-  }
-}
-@media (max-width: 320px) {
-  #es-allegra.es-allegra .es-kv__packshot {
-    max-width: 180px;
-    bottom: 105px;
-    right: -10px;
-  }
-  #es-allegra.es-allegra .es-kv__claims {
-    margin-bottom: 90px;
-  }
-  #es-allegra.es-allegra .es-mainCtn {
-    margin-top: -90px;
-  }
-  #es-allegra.es-allegra .es-nav__link {
-    max-width: 80px;
-    min-width: 80px;
-    font-size: 9px;
-  }
-}/*# sourceMappingURL=style.css.map */
